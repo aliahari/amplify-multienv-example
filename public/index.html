@@ -1,41 +1,674 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
-    <!--
-      manifest.json provides metadata used when your web app is added to the
-      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<!doctype html>
+<html class="no-js" lang="zxx">
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sumon Rahman">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Appy App Landing Template.</title>
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
+    <!-- Plugin-CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Main-Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+<body data-spy="scroll" data-target=".mainmenu-area">
+    <!-- Preloader-content -->
+    <div class="preloader">
+        <span><i class="lnr lnr-sun"></i></span>
+    </div>
+    <!-- MainMenu-Area -->
+    <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" style="background-color:white;"/></a>
+            </div>
+            <div class="collapse navbar-collapse" id="primary_menu">
+                <ul class="nav navbar-nav mainmenu">
+                    <li class="active"><a href="#home_page">Home</a></li>
+                    <li><a href="#about_page">Über uns</a></li>
+                    <li><a href="#features_page">Funktionen</a></li>
+                    <li><a href="#testimonial_page">nestOvest</a></li>
+                    <!--<li><a href="#price_page">Pricing</a></li>-->
+                    <li><a href="#questions_page">FAQ</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#contact_page">Kontakt</a></li>
+                </ul>
+                <div class="right-button hidden-xs">
+                    <a href="#">Mieter</a>
+                </div>
+                <div class="right-button hidden-xs" style="right: 160px;">
+                    <a href="#">Genossenschaft</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- MainMenu-Area-End -->
+    <!-- Home-Area -->
+    <header class="home-area overlay" id="home_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 hidden-sm col-md-5">
+                    <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="images/header-mobile.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-7">
+                    <div class="space-80 hidden-xs"></div>
+                    <h1 class="wow fadeInUp" data-wow-delay="0.4s">Mieten Sie Ihre Wohnung mit einem Klick.</h1>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Nestfinder bringt Mieter (bei uns nester) und Vermieter (bei uns nestfinder) zusammen. nester kann ein Suchprofil erstellen und wir empfehlen zu nestfinder die passende nester mit Hilfe von künstliche Inteligent. Wir verbessern uns ständig durch Machine Learning.</p>
+                    </div>
+                    <div class="space-20"></div>
+                    <a href="#" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"></i>Suchprofil erstellen</a>
+                    <!-- <a href="#" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-download"></i>Suchprofil erstellen</a> -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Home-Area-End -->
+    <!-- About-Area -->
+    <section class="section-padding" id="about_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-10 col-md-offset-1">
+                    <div class="page-title text-center">
+                        <img src="images/about-logo.png" alt="About Logo">
+                        <div class="space-20"></div>
+                        <h5 class="title">Über nestfindet</h5>
+                        <div class="space-30"></div>
+                        <h3 class="blue-color" style="font-size:25px;">The nestovest is started as an idea to make buying apartments easier specially for the young generation who usually lack enough liquidity to get a loan from the back and also willing to stay flexible. Nestovest is selected as of the 9 teams out of 22 ones at "Meisterklasse 2" program from Gründermotor. During this program  it has pivoted to the idea of simplifying the process of finding an apartment for tenants and also finding a tenant for landlords. We believe this is a right step towards our long-term vision. </h3>
+                        <div class="space-20"></div>
+                        <p>Nestovest is founded by Ali Ahari and Nima Mazroob. Ali is a Phd student of informatics at the University of Tübingen and Nima is a Phd student of geoinformatics at Karlsruhe University of Technology. Currently Nestovest team is under the mentorship of Eric Heintze from PioneerGeist and Elena Schön from Hochschule für Technik Stuttgart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-Area-End -->
+    <!-- Progress-Area -->
+    <section class="progress-area gray-bg" id="progress_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="page-title section-padding">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Für Genossenschaften</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Bester Weg um Mieter zu finden und verwalten</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>Mieterauswal ist schwierig, und genau das macht nestfinder mit maschinellem Lernen und künstlicher Inteligent ganz professionel und einfach für Sie. Wir digitalisieren eure Vergaberichtlinien und finden die richtige Mietern für Ihre Objekte. Sie können Terminvereinbarungen online erledigen lassen, Dokumente anfordern und danach die Property Verwaltung führen.</p>
+                        </div>
+                        <div class="space-50"></div>
+                        <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Mehr für Genossenschaften</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <figure class="mobile-image">
+                        <img src="images/progress-phone.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Progress-Area-End -->
+    <!-- Video-Area -->
+    <section class="video-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="video-photo">
+                        <img src="images/video-image.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=5AmkB8UxcQs" class="popup video-button">
+                            <img src="images/play-button.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-5 col-md-offset-1">
+                    <div class="space-60 hidden visible-xs"></div>
+                    <div class="page-title">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">nestfinder erklärt...</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">SO FUNKTIONIERT'S</h3>
+                        <div class="space-20"></div>
+                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                            <p>Bald ist unser Video bereit. Wir erklären es einfach, wie Sie als Mieter ein suchprofil erstellen können, wie Sie als Genossenschaft Ihre passenden Mieter finden können. </p>
+                        </div>
+                        <div class="space-50"></div>
+                        <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Mehr Videos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Video-Area-End -->
+    <!-- Feature-Area -->
+    <section class="feature-area section-padding-top" id="features_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="page-title text-center">
+                        <h5 class="title">Funktionen</h5>
+                        <div class="space-10"></div>
+                        <h3>Flexibilität und Leistung, Alles zusammen</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-rocket"></i>
+                        </div>
+                        <h4>Fast &amp; Powerful</h4>
+                        <p>Sparen Sie viel Zeit</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-paperclip"></i>
+                        </div>
+                        <h4>Easily Accessible</h4>
+                        <p>Unterlagen einfach hochladen bzw. herunterladen.</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-cloud-download"></i>
+                        </div>
+                        <h4>Cloud Storage</h4>
+                        <p>Schützen Sie Ihre Daten</p>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+                <div class="hidden-xs hidden-sm col-md-4">
+                    <figure class="mobile-image">
+                        <img src="images/feature-image.png" alt="Feature Photo">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-clock"></i>
+                        </div>
+                        <h4>Easy Notifications</h4>
+                        <p>Benachrichtigungen beim Zahlungen und volle Kontrolle auf die Zahlungen</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                        </div>
+                        <h4>Overally supported</h4>
+                        <p>Unabhängig von Betriebsysteme: Funktioniert bei Windows, Mac, Android, IOS,...</p>
+                    </div>
+                    <div class="space-60"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-cog"></i>
+                        </div>
+                        <h4>Editable Funktionen</h4>
+                        <p>Funktionen anhand eurer Bedürfnisse und Vergabelinie wählbar</p>
+                    </div>
+                    <div class="space-60"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature-Area-End -->
+    <!-- Testimonial-Area -->
+    <section class="testimonial-area" id="testimonial_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">finders</h5>
+                        <h3 class="dark-color">nestOvest Team</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="team-slide">
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-1.jpg" alt="">
+                            </div>
+                            <h4>Nima Mazroob</h4>
+                            <h6 class="position">Geoinformatiker</h6>
+                            <p>Researcher at Geodetic Institute and PhD candidate in Geo-Informatics at KIT.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <h4>Ali Ahari</h4>
+                            <h6 class="position">Informatiker</h6>
+                            <p>Researcher at FZI and PhD candidate in informatics at Tübingen University</p>
+                        </div>
+                        <!-- <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-1.png" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-2.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>
+                        <div class="team-box">
+                            <div class="team-image">
+                                <img src="images/team-3.jpg" alt="">
+                            </div>
+                            <h4>Ashekur Rahman</h4>
+                            <h6 class="position">Art Dirrector</h6>
+                            <p>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</p>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial-Area-End -->
+    <!-- Gallery-Area -->
+    <!--<section class="gallery-area section-padding" id="gallery_page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 gallery-slider">
+                    <div class="gallery-slide">
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-4.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-4.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-1.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-2.jpg" alt=""></div>
+                        <div class="item"><img src="images/gallery-3.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-lg-3">
+                    <div class="page-title">
+                        <h5 class="white-color title wow fadeInUp" data-wow-delay="0.2s">Screenshots</h5>
+                        <div class="space-10"></div>
+                        <h3 class="white-color wow fadeInUp" data-wow-delay="0.4s">Screenshot 01</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- Gallery-Area-End -->
+    <!-- How-To-Use -->
+    <!--<section class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="page-title">
+                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Our features</h5>
+                        <div class="space-10"></div>
+                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Aour Approach of Design is Prety Simple and Clear</h3>
+                    </div>
+                    <div class="space-20"></div>
+                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <a href="#" class="bttn-default wow fadeInUp" data-wow-delay="0.8s">Learn More</a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1">
+                    <div class="space-60 hidden visible-xs"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-clock"></i>
+                        </div>
+                        <h4>Easy Notifications</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-laptop-phone"></i>
+                        </div>
+                        <h4>Fully Responsive</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="space-50"></div>
+                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="box-icon">
+                            <i class="lnr lnr-cog"></i>
+                        </div>
+                        <h4>Editable Layout</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- How-To-Use-End -->
+    
+    <!-- Download-Area -->
+    <!--<div class="download-area overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 hidden-sm">
+                    <figure class="mobile-image">
+                        <img src="images/download-image.png" alt="">
+                    </figure>
+                </div>
+                <div class="col-xs-12 col-md-6 section-padding">
+                    <h3 class="white-color">Download The App</h3>
+                    <div class="space-20"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam possimus eaque magnam eum praesentium unde.</p>
+                    <div class="space-60"></div>
+                    <a href="#" class="bttn-white sq"><img src="images/apple-icon.png" alt="apple icon"> Apple Store</a>
+                    <a href="#" class="bttn-white sq"><img src="images/play-store-icon.png" alt="Play Store Icon"> Play Store</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Download-Area-End -->
+    <!--Price-Area 
+    <section class="section-padding price-area" id="price_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">Pricing Plan</h5>
+                        <h3 class="dark-color">Our Awesome Pricing Plan</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-rocket"></span>
+                            </div>
+                            <h4 class="upper">Free</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Easy Installations</li>
+                                <li>Unlimited support</li>
+                                <li>Uniqe Elements</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">0</span> <small>/Month</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-diamond"></span>
+                            </div>
+                            <h4 class="upper">Medium</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Easy Installations</li>
+                                <li>Unlimited support</li>
+                                <li>Free Forever</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">49</span> <small>/Month</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="space-30 hidden visible-xs"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="price-box">
+                        <div class="price-header">
+                            <div class="price-icon">
+                                <span class="lnr lnr-pie-chart"></span>
+                            </div>
+                            <h4 class="upper">Business</h4>
+                        </div>
+                        <div class="price-body">
+                            <ul>
+                                <li>Easy Installations</li>
+                                <li>Unlimited support</li>
+                                <li>Free Forever</li>
+                            </ul>
+                        </div>
+                        <div class="price-rate">
+                            <sup>&#36;</sup> <span class="rate">99</span> <small>/Month</small>
+                        </div>
+                        <div class="price-footer">
+                            <a href="#" class="bttn-white">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--Price-Area-End -->
+    <!--Questions-Area -->
+    <section id="questions_page" class="questions-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="page-title text-center">
+                        <h5 class="title">FAQ</h5>
+                        <h3 class="dark-color">Frequently Asked Questions</h3>
+                        <div class="space-60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="toggole-boxs">
+                        <h3>Faq first question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <h3>About freewuent question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <h3>Why more question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <h3>What question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="space-20 hidden visible-xs"></div>
+                    <div class="toggole-boxs">
+                        <h3>Faq second question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <h3>Third faq question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <h3>Why more question goes here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                        <h3>Seventh frequent question here? </h3>
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Questions-Area-End -->
+    <!-- Subscribe-Form -->
+    <div class="subscribe-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+                    <div class="subscribe-form text-center">
+                        <h3 class="blue-color">auf dem Laufenden bleiben...</h3>
+                        <div class="space-20"></div>
+                        <form id="mc-form">
+                            <input type="email" class="control" placeholder="Enter your email" required="required" id="mc-email">
+                            <button class="bttn-white active" type="submit"><span class="lnr lnr-location"></span> Subscribe</button>
+                            <label class="mt10" for="mc-email"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Subscribe-Form-Area -->
+    <!-- Footer-Area -->
+    <footer class="footer-area" id="contact_page">
+        <div class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="page-title text-center">
+                            <h5 class="title">Kontakt</h5>
+                            <h3 class="dark-color">Wir sind nah bei Ihnen</h3>
+                            <div class="space-60"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-map-marker"></span>
+                            </div>
+                            <p>Friedrichstraße 21A,<br /> 76229 Karlsruhe,<br /> Germany</p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-phone-handset"></span>
+                            </div>
+                            <p>+49 176 80452346 <br /> +49 176 44483286</p>
+                        </div>
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="footer-box">
+                            <div class="box-icon">
+                                <span class="lnr lnr-envelope"></span>
+                            </div>
+                            <p>info@nestovest.com <br /> nimaa@yahoo.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-5">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</span>
+                        <!--<span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="lnr lnr-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>-->
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <div class="space-30 hidden visible-xs"></div>
+                    </div>
+                    <div class="col-xs-12 col-md-7">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Pricing</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-Bootom-End -->
+    </footer>
+    <!-- Footer-Area-End -->
+    <!--Vendor-JS-->
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/vendor/jquery-ui.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <!--Plugin-JS-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/contact-form.js"></script>
+    <script src="js/ajaxchimp.js"></script>
+    <script src="js/scrollUp.min.js"></script>
+    <script src="js/magnific-popup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <!--Main-active-JS-->
+    <script src="js/main.js"></script>
+</body>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
 </html>
